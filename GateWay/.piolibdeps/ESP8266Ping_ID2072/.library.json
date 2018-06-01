@@ -1,0 +1,39 @@
+{
+    "description": "Let the ESP8266 ping a remote machine.", 
+    "repository": {
+        "url": "https://github.com/dancol90/ESP8266Ping", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "espressif8266"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Daniele Colanardi", 
+            "url": null, 
+            "email": "dancol90@gmail.com"
+        }
+    ], 
+    "keywords": [
+        "communication"
+    ], 
+    "id": 2072, 
+    "name": "ESP8266Ping", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.0", 
+    "homepage": null
+}
