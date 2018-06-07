@@ -2,19 +2,19 @@
 This folder contains the software part of the HAS8266 project.
 
 ## Architecture
-[Architecture](Architecture.png)
+![Architecture](Architecture.png)
 
 ## GateWay
-[GateWay](GateWay.png)
+![GateWay](GateWay.png)
 
 ## Host
-[Host](Host.png)
+![Host](Host.png)
 
 ## Cominication
-[Cominication](Cominication.png)
+![Cominication](Cominication.png)
 
 ## Web
-[Web](Web.png)
+![Web](Web.png)
 
 ## Requirements
 - [Microsoft Visual Studio Code](http://code.visualstudio.com/download)
