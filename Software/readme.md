@@ -1,8 +1,20 @@
 # Software
-The software part of the HAS8266 project.
+This folder contains the software part of the HAS8266 project.
 
-## Arhitecure
-[Arhitecure](Arhitecure.png)
+## Architecture
+[Architecture](Architecture.png)
+
+## GateWay
+[GateWay](GateWay.png)
+
+## Host
+[Host](Host.png)
+
+## Cominication
+[Cominication](Cominication.png)
+
+## Web
+[Web](Web.png)
 
 ## Requirements
 - [Microsoft Visual Studio Code](http://code.visualstudio.com/download)
