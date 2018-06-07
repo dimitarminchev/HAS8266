@@ -13,6 +13,7 @@ The basic hardware components are the ESP8266 micro-controller by Espressif and 
 - [Microsoft Visual Studio Code](http://code.visualstudio.com/download)
 - [PlatformIO IDE for VSCode](http://platformio.org/platformio-ide)
 
-The project is Open Source Hardware and Open Source.
-![Open Source](https://upload.wikimedia.org/wikipedia/commons/archive/4/42/20070822051640%21Opensource.svg)
+The project is Open Source Hardware and Open Source. 
+
 ![Open Hardware](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Open-source-hardware-logo.svg/228px-Open-source-hardware-logo.svg.png)
+![Open Source](https://upload.wikimedia.org/wikipedia/commons/archive/4/42/20070822051640%21Opensource.svg)
