@@ -1,6 +1,9 @@
 # HAS8266
 Internet of Things (IoT) Home Automation System (HAS) based on ESP8266 with Energy Measurement Capabilities (HLW8012).
 
+![Open Source](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opensource.svg/200px-Opensource.svg.png)
+![Open Hardware](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ohw-logo.svg/200px-Ohw-logo.svg.png)
+
 ## Information
 The basic hardware components are the ESP8266 micro-controller by Espressif and energy meter chip HLW8012 by HLW Technology. The Software works over the TCP/IP stack and uses the MQTT protocol to communicate between the devices. The minimum configuration of the HAS includes one control device called Gateway and two or more manageable Host devices. The user friendly, simplified interface is web based. The platform has open software and hardware. 
 
