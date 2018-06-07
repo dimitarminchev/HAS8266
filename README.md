@@ -19,5 +19,5 @@ The project is published as Open Source Hardware and Software.
 ![Open Source](https://upload.wikimedia.org/wikipedia/commons/archive/4/42/20070822051640%21Opensource.svg)
 
 # Authors
-- Software: Dimitar Minchev, PhD of Informatics,  e-mail: ![mitko@bfu.bg](mitko@bfu.bg)
-- Hardware: Atanas Dimitrov, PhD of Robots and manipulators, e-mail: ![atanas@bfu.bg](atanas@bfu.bg)
+- Software: Dimitar Minchev, PhD of Informatics,  e-mail: <mitko@bfu.bg>
+- Hardware: Atanas Dimitrov, PhD of Robots and manipulators, e-mail: <atanas@bfu.bg>
