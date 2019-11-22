@@ -2,7 +2,7 @@
 Internet of Things (IoT) Home Automation System (HAS) based on ESP8266 with Energy Measurement Capabilities.
 
 <div style="width:100px; height:100px; float:right; padding:10px">
-![HAS8266](LOGO.png)
+![LOGO.png](LOGO.png)
 </div>
 
 ### Information
