@@ -22,4 +22,4 @@ The basic hardware components are the ESP8266 micro-controller by Espressif and 
 - [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 
 ### Settings
-![SETTINGS.png](SETTINGS.png)
+![Settings.png](Settings.png)
