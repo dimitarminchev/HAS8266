@@ -23,6 +23,7 @@ AsyncWebServer server(80); // WEB SERVER ON PORT 8080
 // COUNTERS
 byte SEND_HELLO = false;
 byte SEND_POWER = false;
+byte POWER = 3;
 
 // GATEWAY
 DynamicJsonDocument devices(4096);
@@ -93,8 +94,12 @@ class MQTTBroker: public uMQTTBroker
       object["voltage"] = payload["voltage"]; // V
 
       // STOP
-      String msg_stop = "{\"from\":\"" + WiFi.softAPIP().toString() + "\",\"to\":\"" + ip_from + "\"}";
-      this->publish("stop", msg_stop);
+      if(POWER <= 0)
+      {
+        String msg_stop = "{\"from\":\"" + WiFi.softAPIP().toString() + "\",\"to\":\"" + ip_from + "\"}";
+        this->publish("stop", msg_stop);
+        POWER = 3;
+      } else POWER--;
     }
   }
 
@@ -428,6 +433,7 @@ void loop()
       doc["voltage"] = 0; // V
       if(digitalRead(RELAY_PIN) == RELAY_ON)
       {
+        delay(1000); 
         doc["power"] = hlw8012.getActivePower(); // W
         doc["current"] = hlw8012.getCurrent(); // A
         doc["voltage"] = hlw8012.getVoltage(); // V
