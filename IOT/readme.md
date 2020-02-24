@@ -3,7 +3,7 @@
 1. [Getting Started](01_BLINK)
 2. [Deploy Updates Over the Air](02_OTA)
 3. [File System](03_SPIFFS)
-4. [Access Point and Wwb Server](04_SERVER)
+4. [Access Point and Web Server](04_SERVER)
 
 ## TODO
 - PWM

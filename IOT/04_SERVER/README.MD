@@ -1,4 +1,4 @@
-# Access Point and Wwb Server
+# Access Point and Web Server
 Start ESP8266 as a Access Point and then serve Client requests as a Web Server.
 
 ### Arduino
