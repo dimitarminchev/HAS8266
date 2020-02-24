@@ -14,7 +14,8 @@ ESP8266WebServer server(80);
 void setup(void) 
 {
   // Access Point
-  WiFi.softAP("ESP8266", "1234");
+  WiFi.mode(WIFI_AP);
+  WiFi.softAP("ESP8266");
   // Server
   server.on("/", handleRequest);
   server.begin();
@@ -26,9 +27,8 @@ void handleRequest()
   // File System
   SPIFFS.begin();
   File file = SPIFFS.open("/index.html", "r");
-  server.send(200, "text/plain", file.readString());
+  server.send(200, "text/html", file.readString());
   file.close();
-  
   // server.send(200, "text/plain", "Hello world");
 }
 
