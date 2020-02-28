@@ -1,12 +1,12 @@
 # Internet of Things
 
 1. [Getting Started](01_BLINK)
-2. [Deploy Updates Over the Air](02_OTA)
-3. [File System](03_SPIFFS)
-4. [Access Point and Web Server](04_SERVER)
+2. [Pulse Width Modulation](02_PWM) 
+3. [Deploy Updates Over the Air](03_OTA)
+4. [File System](04_SPIFFS)
+5. [Access Point and Web Server](05_SERVER)
 
 ## TODO
-- PWM
 - WiFi
 - TCP/IP
 - Web Client 
