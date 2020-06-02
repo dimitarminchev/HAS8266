@@ -1,4 +1,4 @@
-# LAS 8266
+# LAS8266
 Internet of Things (IoT) Laboratory Automation System (LAS) based on ESP8266 with Energy Measurement Capabilities.
 
 ### Information
