@@ -1,5 +1,5 @@
-# HAS8266
-Internet of Things (IoT) Home Automation System (HAS) based on ESP8266 with Energy Measurement Capabilities (HLW8012).
+# HAS 8266
+Internet of Things (IoT) Laboratory Automation System (LAS) based on ESP8266 with Energy Measurement Capabilities.
 
 ### Information
 The basic hardware components are the ESP8266 micro-controller by Espressif and energy meter chip HLW8012 by HLW Technology. The Software works over the TCP/IP stack and uses the MQTT protocol to communicate between the devices. The minimum configuration of the HAS includes one control device called Gateway and two or more manageable Host devices. The user friendly, simplified interface is web based. The platform has open software and hardware. 
@@ -8,14 +8,25 @@ The basic hardware components are the ESP8266 micro-controller by Espressif and 
 - Software: Dimitar Minchev, PhD of Informatics,  e-mail: <mitko@bfu.bg>
 - Hardware: Atanas Dimitrov, PhD of Robots and manipulators, e-mail: <atanas@bfu.bg>
 
-### Youtube demo
-[![HAS8266](http://img.youtube.com/vi/SIjooKtCkP0/0.jpg)](https://www.youtube.com/watch?v=SIjooKtCkP0)
+### Youtube Demo
+[![LAS8266](http://img.youtube.com/vi/b3r9DmQJEUk/0.jpg)](https://youtu.be/b3r9DmQJEUk)
 
-### Hardware and Software
-- [ESP8266EX, Espressif System](http://www.espressif.com/sites/default/files/documentation/0aesp8266ex_datasheet_en.pdf)
-- [HLW8012, Hiliwi Technologies](http://www.hiliwi.com/products_detail/&productId=36.html)
-- [Microsoft Visual Studio Code](http://code.visualstudio.com/download)
-- [PlatformIO IDE for VSCode](http://platformio.org/platformio-ide)
+### Hardware
+![HAS8266.png](HAS8266.png)
+
+### Software
+![DEMO.png](DEMO.png)
+
+# Arduino 
+### Libraries
+- [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
+- [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+- [PubSubClient](https://github.com/knolleary/pubsubclient)
+- [uMQTTBroker](https://github.com/martin-ger/uMQTTBroker)
+- [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+
+### Settings
+![Settings.png](Settings.png)
 
 The project is published as Open Source Hardware and Software.
 
